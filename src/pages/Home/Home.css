@@ -1,0 +1,13 @@
+#home {
+  padding: 40px 30px;
+}
+#home .heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#home .card-list {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}

@@ -1,0 +1,35 @@
+.card-item {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: .1px .1px 1px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+.card-item .thumbnail{
+    height: 240px;
+    width: 100%;
+    box-shadow: 0.1px 0.1px 1px gray;
+    border-radius: 8px;
+}
+
+.card-item .card-action {
+    display: flex;
+    justify-content: center;
+}
+.card-item .card-body .card-content-type{
+    font-weight: 700;
+    font-size: 16px;
+}
+.card-item .card-action .btn{
+    width: 100%;
+    padding: 15px 20px;
+    background-color: rgb(227, 227, 0);
+    border: 0px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
